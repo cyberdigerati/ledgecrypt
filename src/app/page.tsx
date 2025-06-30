@@ -441,7 +441,7 @@ export default function HomePage() {
           <img
             src="/logos/ledgecryptlogolarge.png"
             alt="LedgeCrypt Logo"
-            className="w-20 h-20 object-contain mx-auto mb-4"
+            className="w-100 h-50 object-contain mx-auto mb-4"
           />
           <h1 className="text-4xl font-bold text-white">
             LedgeCrypt Signal Feed
