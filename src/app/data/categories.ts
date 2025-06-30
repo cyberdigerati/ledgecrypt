@@ -1,0 +1,60 @@
+import { SignalCategory } from '../types/signal';
+
+export const SIGNAL_CATEGORIES: SignalCategory[] = [
+  {
+    id: 'all',
+    name: 'All Signals',
+    icon: 'Globe',
+    color: 'from-slate-500 to-slate-600',
+    description: 'Complete intelligence feed',
+    count: 0,
+  },
+  {
+    id: 'ai',
+    name: 'AI & Machine Learning',
+    icon: 'Brain',
+    color: 'from-purple-500 to-purple-600',
+    description: 'AI developments, model releases, policy',
+    count: 0,
+  },
+  {
+    id: 'crypto',
+    name: 'Blockchain & Crypto',
+    icon: 'Coins',
+    color: 'from-orange-500 to-orange-600',
+    description: 'DeFi, tokenization, regulation',
+    count: 0,
+  },
+  {
+    id: 'compliance',
+    name: 'Compliance & Policy',
+    icon: 'Shield',
+    color: 'from-blue-500 to-blue-600',
+    description: 'Regulatory changes, legal developments',
+    count: 0,
+  },
+  {
+    id: 'automation',
+    name: 'Automation & Robotics',
+    icon: 'Zap',
+    color: 'from-green-500 to-green-600',
+    description: 'Robotics, drones, IoT, automation',
+    count: 0,
+  },
+  {
+    id: 'markets',
+    name: 'Markets & Economy',
+    icon: 'TrendingUp',
+    color: 'from-emerald-500 to-emerald-600',
+    description: 'Market movements, economic indicators',
+    count: 0,
+  },
+  {
+    id: 'critical',
+    name: 'Critical Alerts',
+    icon: 'AlertTriangle',
+    color: 'from-red-500 to-red-600',
+    description: 'High-impact developments requiring attention',
+    count: 0,
+  },
+];
