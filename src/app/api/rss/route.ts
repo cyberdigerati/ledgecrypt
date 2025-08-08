@@ -10,7 +10,7 @@ const RSS_SOURCES = {
       description: 'Tech community discussions and AI developments',
     },
     {
-      url: 'https://feeds.feedburner.com/oreilly/radar',
+      url: 'https://www.oreilly.com/content/feed/',
       name: "O'Reilly Radar",
       reliability: 5,
       description: 'Technology trends and AI insights',
@@ -56,7 +56,7 @@ const RSS_SOURCES = {
       description: 'Bitcoin and blockchain technology',
     },
     {
-      url: 'https://www.newbtc.com/feed/',
+      url: 'https://www.newsbtc.com/feed/',
       name: 'NewsBTC',
       reliability: 4,
       description: 'Cryptocurrency market analysis',
@@ -77,12 +77,6 @@ const RSS_SOURCES = {
     },
   ],
   'AR VR': [
-    {
-      url: 'https://venturebeat.com/category/ar-vr/feed/',
-      name: 'VentureBeat AR/VR',
-      reliability: 4,
-      description: 'Augmented and virtual reality developments',
-    },
     {
       url: 'https://uploadvr.com/feed/',
       name: 'UploadVR',
